@@ -1,7 +1,4 @@
-# Thesis_Vishu
-
-# Master_Theis_Vishu_Sharma
-
+# Master_Thesis
 **Thesis Title:** Design and Implementation of Wireless Sensor Networks Using LoRaWAN, MQTT and Cloud Computing
 
 **Abstract** 
@@ -14,23 +11,22 @@ sensor data using a decoding script. This can be done either in the LoRaWAN gate
 
 The research also explores the optimal MQTT architecture for sensor applications running in LoRaWAN gateways such that it’s compatible with the back-end computing infrastructure. Additionally, the research examines the current limitations of LoRaWAN-compatible network devices, particularly with regard to ease of network deployment, configuration tools, and systems integration.
 
-Key Words: WSN, LoRaWAN, MQTT, Sensors, Cloud computing, IoT, Edge computing,
-system integration, LPWAN, Industry 4.0.
+Key Words: WSN, LoRaWAN, MQTT, Sensors, Cloud computing, IoT, Edge computing, system integration, LPWAN, Industry 4.0.
 
 **Technologies used**
 
 LoRaWAN based wireless networks solves two most important problems of the IoT applications: 
-They provide very long range communication (2-15 Km) at very low power consumption rate.
-LoraWAN based sensor nodes can run upto 10 years on AA sized batteries with very little maintenance.
+- They provide very long range communication (2-15 Km) at very low power consumption rate.
+- LoraWAN based sensor nodes can run upto 10 years on AA sized batteries with very little maintenance.
 
 MQTT is a light weight message transport protocol suitable for Machine to Machine communication (M2M) and Internet of Things (IoT).
-It uses a publish/subscribe model for communication. Clients can publish (publishing clients like sensors) on topics to a central broker (MQTT Server)
-subscribing clients (say smart phone or PC) can subscribe to the topics of their interest to see the messages.
-MQTT allows to establish secure connections with a large variety of devices even with unreliable network connections. 
-MQTT is far more suitable for IoT application compared to REST based protocols like HTTP.
+- It uses a publish/subscribe model for communication. Clients can publish (publishing clients like sensors) on topics to a central broker (MQTT Server)
+and subscribing clients (say a smart phone or a PC) can subscribe to the topics of their interest to see the messages.
+- MQTT allows to establish secure connections with a large variety of devices even with unreliable network connections. 
+- MQTT is far more suitable for IoT application compared to REST based protocols like HTTP.
 
-Cloud computing allows to build the scalable infrastructure without having too much technical expertise in database management.
-It also allows to do data analytics and creating application servers for data consumption via dashboards.
+Cloud computing enables to build the scalable infrastructure without having too much technical expertise in the database management.
+It also enable data analytics and creating application servers for data consumption via dashboards.
 
 **Research Goal**
 
